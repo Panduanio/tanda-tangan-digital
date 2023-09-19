@@ -1,0 +1,455 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2016, 7:40:14 PM
+    Author     : gilad
+*/
+
+a.btn {
+    color: #FFFFFF;
+}
+
+.box{
+    background: #ffffff;
+    border:1px solid #ddd;
+    width:90%;
+    text-align:left;
+    padding: 5%;
+    margin:auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    float: left;
+}
+
+.left-text {
+    text-align: left;
+    padding: 0 5%;
+}
+
+#signatureCanvas {
+    margin-top: 1em;
+}
+
+.left-text-light {
+    text-align: left;
+    padding: 0% 5%;
+}
+
+.notloggedin-error {
+    padding: 1em;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    background-color: #FA2A00;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+a.notloggedin-link,
+a.notloggedin-link:visited ,
+a.notloggedin-link:hover , 
+a.notloggedin-link:active {
+    color: #0134CA !important;
+    text-decoration: underline;
+    font-weight: bold !important;
+    font-size: 1.2em;
+}
+
+h4 {
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nextstep-button {
+    margin-top: 1.2em;
+}
+
+.left-buttons {
+    float: left;
+    text-align: left;
+}
+
+.nextstep-button .btn {
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1em;
+}
+
+.left-buttons button.btn-primary,
+.left-buttons button.btn-active {
+    font-size: 0.9em !important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#sidebar_ads {
+    margin-top: 20px;
+}
+
+.signPreviewRow {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0 0 5% 5%;
+}
+
+#The_colorPicker {
+	position:absolute;
+	width:224px;
+	padding-bottom:1px;
+	background-color:#FFF;
+	border:1px solid #317082;
+}
+
+.signatureUpgradeOptions,
+.signatureUpgradeOptions * {
+    
+}
+
+.signatureListBox {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    border: solid 2px #F7882F;
+    border-radius: 8px;
+}
+
+.signatureListName {
+    width: 100%;
+    padding: 0 5%;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.signatureListId {
+    width: 100%;
+    padding: 10px 5%;
+    float: left;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.signatureListIdValue {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.signatureListImage {
+    width: 100%;
+    padding: 10px 5%;
+    float: left;
+}
+
+.signatureListImage img {
+    
+}
+
+.btn-signature-list-action {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.signatureListButtons {
+    margin-bottom: 10px;
+}
+
+h4.no-left-padding {
+    padding-left: 0%;
+}
+
+.input-group-addon {
+    color: #F7882F !important;
+}
+
+.notloggedin-error a,
+.notloggedin-error a:visited, 
+.notloggedin-error a:hover,
+.notloggedin-error a:active {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.signatureHTMLPositionBox {
+    border: dashed 2px #F7882F;
+    margin: 1vh 0;
+    padding: 10px;
+}
+
+.biggerInputBox {
+    min-height: 350px;
+}
+
+.button, .btn-primary, .btn-active {
+    color: #000000 !important;
+    background-color: rgb(245, 217, 72) !important;
+    border: 2px solid #eeeeee !important;
+    font-weight: 300;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: auto !important;
+    height: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.button:hover, .btn-primary:hover {
+    color: #FFFFFF !important;
+    background-color:#6B7A8F !important;
+}
+
+.btn-active {
+    background-color: #6B7A8F !important;
+    color: #FFFFFF;
+}
+
+.btn-active:hover {
+    background-color: #6B7A8F !important;
+    color: #FFFFFF;
+}
+
+.text-custom-input {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    width: 70%;
+    margin: 1% 5%;
+}
+
+/* Color picker */
+.pickr {
+    float: right;
+    width: auto;
+}
+
+/* Signature boxes */
+.previewBox {
+    width: 46%;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 2%;
+    padding: 2em 0;
+    float: left;
+    display: inline-table;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Lightbox */
+#shadowing {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #CCA;
+  z-index:10;
+  opacity:0.5;
+  filter: alpha(opacity=50);
+}
+
+#lightbox{
+    position: fixed;
+    left: 25vw;
+    width: 50vw;
+    display: none;
+    margin: auto;
+    height: auto;
+    padding: 1em;
+    border: 2px solid rgb(245, 217, 72);
+    background-color: white;
+    border-radius: 30px;
+    z-index:11;
+    overflow: auto;
+}
+
+#done-lightbox{
+    position: fixed;
+    left: 25vw;
+    width: 50vw;
+    display: none;
+    margin: auto;
+    height: auto;
+    padding: 1em;
+    border: 2px solid rgb(245, 217, 72);
+    background-color: white;
+    border-radius: 30px;
+    z-index:11;
+    overflow: auto;
+}
+
+#downloadprebox {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.font-slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 50px;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  .download-paramters {
+    margin: 1em 0;
+    width: 100%;
+    float: left;
+  }
+
+  @media (max-width:767px) {
+    #lightbox,
+    #done-lightbox {
+        width: 90vw;
+        left: 2vw;
+        top: 1em;
+    }
+  }
+
+  .fulllineleft {
+      width: 100%;
+      float: left;
+  }
+
+  .uploadarea {
+    margin: 1em 5%;
+    width: inherit;
+    float: left;
+    background-color: #eeeeee;
+    padding: 2em;
+    border-radius: 30px;
+    font-size: 1em;
+  }
+
+  #drop {
+    border: 2px dashed #ccc;
+    width: 170px;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.uploadarea a:link, a:link, a:visited, a:active {
+    color: #0134CA;
+}
+
+a.download-signature, a.download-signature:hover,
+a.download-signature:visited {
+    color: #0134CA !important;
+}
+
+a.text-white, a.text-white:hover,
+a.text-white:visited {
+    color: #FFFFFF !important;
+}
+
+.actionarea {
+    width: 100%;
+    float: left;
+}
+
+button.leftshift {
+    margin-left: 5%;
+}
+
+p.onlineresulttitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.upgradeline {
+    padding-top: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#imgdiv {
+    overflow-x: auto;
+    width: 100%;
+}
+
+#svgdiv {
+    background-color: #FFFFFF;
+    overflow-x: auto;
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 30px;
+    padding: 1em;
+}
+
+a.signaturelinks,a.signaturelinks:link, 
+a.signaturelinks:link, a.signaturelinks:visited, 
+a.signaturelinks:active {
+    color: #0134CA;
+}
+
+li.pull-right a:link, a:link, a:visited, a:active {
+    color: #FFFFFF;
+}
+
+.signatureListId a {
+    color: #0134CA !important;
+}
